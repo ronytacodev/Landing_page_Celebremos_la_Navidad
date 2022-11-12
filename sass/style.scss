@@ -113,3 +113,40 @@ html {
 #menu-btn {
     display: none;
 }
+
+//Inicio de Barra de Búsqueda//
+.search-form {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    height: 6rem;
+    background: $color-white;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+
+    clip-path: polygon(0 0, 100% 1%, 100% 0, 0 0);
+
+    &.active {
+        clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 100%);
+    }
+
+    input {
+        width: 100%;
+        font-size: 1.6rem;
+        color: $s-dark;
+    }
+
+    label {
+        font-size: 2.5rem;
+        margin-left: 2rem;
+        color: $color-black;
+
+        &:hover {
+            color: $p-dark;
+        }
+    }
+}
+
+//Fin de Barra de Búsqueda//

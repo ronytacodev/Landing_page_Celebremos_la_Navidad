@@ -80,4 +80,33 @@ html::-webkit-scrollbar-thumb {
   display: none;
 }
 
+.search-form {
+  position: absolute;
+  top: 99%;
+  left: 0;
+  right: 0;
+  height: 6rem;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  clip-path: polygon(0 0, 100% 1%, 100% 0, 0 0);
+}
+.search-form.active {
+  clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 100%);
+}
+.search-form input {
+  width: 100%;
+  font-size: 1.6rem;
+  color: #8d8d8d;
+}
+.search-form label {
+  font-size: 2.5rem;
+  margin-left: 2rem;
+  color: #000000;
+}
+.search-form label:hover {
+  color: #ab000d;
+}
+
 /*# sourceMappingURL=style.css.map */
