@@ -5,7 +5,25 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  outline: 0;
+  outline: none;
+  border: none;
+  transition: all 0.2s linear;
+}
+
+html {
+  font-size: 65%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding: 7rem;
+}
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+html::-webkit-scrollbar-thumb {
+  background: #e53935;
 }
 
 /*# sourceMappingURL=style.css.map */

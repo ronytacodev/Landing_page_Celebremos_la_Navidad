@@ -6,5 +6,51 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    outline: 0;
+    outline: none;
+    border: none;
+    transition: all .2s linear;
 }
+
+//paleta de colores//
+$primary: #e53935;
+$p-light: #ff6f60;
+$p-dark: #ab000d;
+
+$secondary: #bdbdbd;
+$s-ligth: #efefef;
+$s-dark: #8d8d8d;
+
+$color-black: #000000;
+$color-white: #ffffff;
+$color-green: #2a3b16;
+
+//otros detalles estéticos//
+$box-shadow: 0 .5rem 1rem rgba(29, 17, 17, 0.2);
+
+@mixin grid($val) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, mimax($val, 1fr));
+    gap: 2rem;
+}
+
+//Inicio detalles cuerpo html//
+html {
+    font-size: 65%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding: 7rem;
+
+    &::-webkit-scrollbar {
+        width: 1rem;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: $primary;
+    }
+}
+
+//Fin detalles cuerpo html//
