@@ -177,10 +177,10 @@ section {
   font-size: 5rem;
   color: #ab000d;
   text-shadow: 0 0.5rem 1rem rgba(29, 17, 17, 0.2);
-  animation: fadeIn 0.2s linear backwards;
+  animation: fadeIn 0.2s linear backwards 0.4s;
 }
 .home .slide .btn {
-  animation: fadeIn 0.2s linear backwards;
+  animation: fadeIn 0.2s linear backwards 0.6s;
 }
 @keyframes fadeIn {
   0% {

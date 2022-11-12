@@ -230,11 +230,11 @@ section {
             font-size: 5rem;
             color: $p-dark;
             text-shadow: $box-shadow;
-            animation: fadeIn .2s linear backwards;
+            animation: fadeIn .2s linear backwards .4s;
         }
 
         .btn {
-            animation: fadeIn .2s linear backwards;
+            animation: fadeIn .2s linear backwards .6s;
         }
     }
 
