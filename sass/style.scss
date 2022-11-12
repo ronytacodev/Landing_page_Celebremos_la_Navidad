@@ -77,6 +77,14 @@ html {
         i {
             color: $p-dark;
             margin-right: .5rem;
+            display: flex;
+
+            p {
+                padding-left: .5rem;
+                font-size: 2rem;
+                text-transform: uppercase;
+            }
+
         }
     }
 

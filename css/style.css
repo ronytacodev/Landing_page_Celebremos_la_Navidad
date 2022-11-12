@@ -47,6 +47,12 @@ html::-webkit-scrollbar-thumb {
 .header .logo i {
   color: #ab000d;
   margin-right: 0.5rem;
+  display: flex;
+}
+.header .logo i p {
+  padding-left: 0.5rem;
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 .header .navbar a {
   margin: 0 1.5rem;
