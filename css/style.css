@@ -39,5 +39,23 @@ html::-webkit-scrollbar-thumb {
   justify-content: space-between;
   padding: 1.5rem 9%;
 }
+.header .logo {
+  font-size: 2rem;
+  color: #000000;
+  font-weight: 600;
+}
+.header .logo i {
+  color: #ab000d;
+  margin-right: 0.5rem;
+}
+.header .navbar a {
+  margin: 0 1.5rem;
+  font-size: 1.5rem;
+  color: #000000;
+  font-weight: 500;
+}
+.header .navbar a:hover {
+  color: #ab000d;
+}
 
 /*# sourceMappingURL=style.css.map */
