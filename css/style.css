@@ -26,4 +26,18 @@ html::-webkit-scrollbar-thumb {
   background: #e53935;
 }
 
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 0.5rem 1rem rgba(29, 17, 17, 0.2);
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 9%;
+}
+
 /*# sourceMappingURL=style.css.map */
