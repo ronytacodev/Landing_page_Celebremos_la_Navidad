@@ -90,3 +90,21 @@ html {
         }
     }
 }
+
+.icons div,
+.icons a {
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: .5rem;
+    background: $s-ligth;
+    font-size: 2rem;
+    color: $color-black;
+    margin-left: .3rem;
+    text-align: center;
+
+    &:hover {
+        background: $p-dark;
+        color: $color-white;
+    }
+}

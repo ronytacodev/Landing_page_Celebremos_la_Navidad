@@ -58,4 +58,22 @@ html::-webkit-scrollbar-thumb {
   color: #ab000d;
 }
 
+.icons div,
+.icons a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  border-radius: 0.5rem;
+  background: #efefef;
+  font-size: 2rem;
+  color: #000000;
+  margin-left: 0.3rem;
+  text-align: center;
+}
+.icons div:hover,
+.icons a:hover {
+  background: #ab000d;
+  color: #ffffff;
+}
+
 /*# sourceMappingURL=style.css.map */
