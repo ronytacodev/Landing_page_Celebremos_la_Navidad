@@ -55,6 +55,7 @@ html {
 
 //Fin detalles cuerpo html//
 
+//Inicio Barra de Menú//
 .header {
     position: sticky;
     top: 0;
@@ -107,4 +108,8 @@ html {
         background: $p-dark;
         color: $color-white;
     }
+}
+
+#menu-btn {
+    display: none;
 }

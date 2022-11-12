@@ -76,4 +76,8 @@ html::-webkit-scrollbar-thumb {
   color: #ffffff;
 }
 
+#menu-btn {
+  display: none;
+}
+
 /*# sourceMappingURL=style.css.map */
