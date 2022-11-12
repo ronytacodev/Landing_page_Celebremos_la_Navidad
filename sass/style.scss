@@ -154,5 +154,122 @@ html {
 //Fin Barra de Menú//
 
 //Inicio del Home//
+section {
+    padding: 3rem 9%;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    background: $p-dark;
+    color: $color-white;
+    font-size: 1.5rem;
+    box-shadow: $box-shadow;
+    text-align: center;
+
+    &:hover {
+        background: $color-green;
+    }
+}
+
+.heading {
+    text-align: center;
+    color: $color-green;
+    margin-bottom: 3rem;
+    font-size: 4rem;
+}
+
+.home {
+    position: relative;
+    padding: 0;
+
+    .bannerone {
+        background: url(../img/bannerone.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bannertwo {
+        background: url(../img/bannertwo.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bannerthree {
+        background: url(../img/bannerthree.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .slide {
+        padding: 2rem;
+        display: flex;
+        min-height: 60vh;
+
+        display: none;
+
+        &.active {
+            display: flex;
+        }
+
+        .content {
+            margin: auto;
+            text-align: center;
+        }
+
+        span {
+            color: $color-black;
+            display: block;
+            font-size: 3rem;
+            text-shadow: $box-shadow;
+            animation: fadeIn .2s linear backwards;
+        }
+
+        h3 {
+            font-size: 5rem;
+            color: $p-dark;
+            text-shadow: $box-shadow;
+            animation: fadeIn .2s linear backwards;
+        }
+
+        .btn {
+            animation: fadeIn .2s linear backwards;
+        }
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+            transform: translateY(-4rem) scale(.4);
+        }
+    }
+
+    #next-slide,
+    #prev-slide {
+        height: 4rem;
+        width: 4rem;
+        line-height: 4rem;
+        font-size: 2rem;
+        color: $color-green;
+        background: $color-white;
+        box-shadow: $box-shadow;
+        cursor: pointer;
+        position: absolute;
+        bottom: 2rem;
+        right: 2rem;
+        text-align: center;
+
+        &:hover {
+            background: $p-dark;
+            color: $color-white;
+        }
+    }
+
+    #prev-slide {
+        right: 8rem;
+    }
+}
+
 
 //Fin del Home//

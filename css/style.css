@@ -109,4 +109,107 @@ html::-webkit-scrollbar-thumb {
   color: #ab000d;
 }
 
+section {
+  padding: 3rem 9%;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  background: #ab000d;
+  color: #ffffff;
+  font-size: 1.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(29, 17, 17, 0.2);
+  text-align: center;
+}
+.btn:hover {
+  background: #2a3b16;
+}
+
+.heading {
+  text-align: center;
+  color: #2a3b16;
+  margin-bottom: 3rem;
+  font-size: 4rem;
+}
+
+.home {
+  position: relative;
+  padding: 0;
+}
+.home .bannerone {
+  background: url(../img/bannerone.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.home .bannertwo {
+  background: url(../img/bannertwo.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.home .bannerthree {
+  background: url(../img/bannerthree.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.home .slide {
+  padding: 2rem;
+  display: flex;
+  min-height: 60vh;
+  display: none;
+}
+.home .slide.active {
+  display: flex;
+}
+.home .slide .content {
+  margin: auto;
+  text-align: center;
+}
+.home .slide span {
+  color: #000000;
+  display: block;
+  font-size: 3rem;
+  text-shadow: 0 0.5rem 1rem rgba(29, 17, 17, 0.2);
+  animation: fadeIn 0.2s linear backwards;
+}
+.home .slide h3 {
+  font-size: 5rem;
+  color: #ab000d;
+  text-shadow: 0 0.5rem 1rem rgba(29, 17, 17, 0.2);
+  animation: fadeIn 0.2s linear backwards;
+}
+.home .slide .btn {
+  animation: fadeIn 0.2s linear backwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem) scale(0.4);
+  }
+}
+.home #next-slide,
+.home #prev-slide {
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
+  font-size: 2rem;
+  color: #2a3b16;
+  background: #ffffff;
+  box-shadow: 0 0.5rem 1rem rgba(29, 17, 17, 0.2);
+  cursor: pointer;
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  text-align: center;
+}
+.home #next-slide:hover,
+.home #prev-slide:hover {
+  background: #ab000d;
+  color: #ffffff;
+}
+.home #prev-slide {
+  right: 8rem;
+}
+
 /*# sourceMappingURL=style.css.map */
