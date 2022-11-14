@@ -218,4 +218,25 @@ section {
   right: 8rem;
 }
 
+.category {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, mimax(20rem, 1fr));
+  gap: 2rem;
+}
+.category .box-container {
+  text-align: center;
+  padding: 3rem;
+}
+.category .box-container:hover h3 {
+  color: #ab000d;
+}
+.category .box-container img {
+  height: 10rem;
+  margin-bottom: 1rem;
+}
+.category .box-container h3 {
+  font-size: 1.5rem;
+  color: #2a3b16;
+}
+
 /*# sourceMappingURL=style.css.map */

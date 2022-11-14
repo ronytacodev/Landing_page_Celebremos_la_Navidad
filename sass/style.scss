@@ -279,5 +279,30 @@ section {
     }
 }
 
-
 //Fin del Home//
+
+//Inicio de Categorías//
+.category {
+    @include grid(20rem);
+
+    .box-container {
+        text-align: center;
+        padding: 3rem;
+
+        &:hover h3 {
+            color: $p-dark;
+        }
+
+        img {
+            height: 10rem;
+            margin-bottom: 1rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            color: $color-green ;
+        }
+    }
+}
+
+//Fin de Categorías//
