@@ -29,7 +29,7 @@ $box-shadow: 0 .5rem 1rem rgba(29, 17, 17, 0.2);
 
 @mixin grid($val) {
     display: grid;
-    grid-template-columns: repeat(auto-fit, mimax($val, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
     gap: 2rem;
 }
 
