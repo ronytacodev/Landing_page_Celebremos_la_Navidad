@@ -306,3 +306,75 @@ section {
 }
 
 //Fin de Categorías//
+
+//Inicio de Nosotros//
+.about {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    .image {
+        flex: 1 1 42rem;
+        padding-bottom: 5rem;
+        padding-right: 5rem;
+
+        img {
+            width: 100%;
+            box-shadow: 4rem 4rem $s-ligth;
+        }
+    }
+
+    .content {
+        flex: 1 1 42rem;
+
+        .box {
+            padding: 3rem;
+            background: $s-ligth;
+
+            h3 {
+                font-size: 3rem;
+                color: $p-dark;
+            }
+
+            p {
+                padding: 1rem 0;
+                line-height: 2rem;
+                color: $color-black;
+                font-size: 1.5rem;
+            }
+        }
+
+        .icons-container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            gap: 2rem;
+            margin-top: 2rem;
+
+            .icons {
+                flex: 1 1 16rem;
+                background: $s-ligth;
+                padding: 2rem;
+                text-align: center;
+            }
+
+            i {
+                color: $p-dark;
+                margin-bottom: 1rem;
+                font-size: 4rem;
+
+                &:hover {
+                    color: $color-green;
+                }
+            }
+
+            p {
+                font-size: 1.5rem;
+                color: $color-green;
+            }
+        }
+    }
+}
+
+//Fin de Nosotros

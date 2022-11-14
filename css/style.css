@@ -239,4 +239,62 @@ section {
   color: #2a3b16;
 }
 
+.about {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.about .image {
+  flex: 1 1 42rem;
+  padding-bottom: 5rem;
+  padding-right: 5rem;
+}
+.about .image img {
+  width: 100%;
+  box-shadow: 4rem 4rem #efefef;
+}
+.about .content {
+  flex: 1 1 42rem;
+}
+.about .content .box {
+  padding: 3rem;
+  background: #efefef;
+}
+.about .content .box h3 {
+  font-size: 3rem;
+  color: #ab000d;
+}
+.about .content .box p {
+  padding: 1rem 0;
+  line-height: 2rem;
+  color: #000000;
+  font-size: 1.5rem;
+}
+.about .content .icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.about .content .icons-container .icons {
+  flex: 1 1 16rem;
+  background: #efefef;
+  padding: 2rem;
+  text-align: center;
+}
+.about .content .icons-container i {
+  color: #ab000d;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+}
+.about .content .icons-container i:hover {
+  color: #2a3b16;
+}
+.about .content .icons-container p {
+  font-size: 1.5rem;
+  color: #2a3b16;
+}
+
 /*# sourceMappingURL=style.css.map */
