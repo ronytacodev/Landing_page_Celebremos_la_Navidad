@@ -378,3 +378,74 @@ section {
 }
 
 //Fin de Nosotros//
+
+//Inicio Sección TIENDA //
+.shop {
+    background: $s-ligth;
+
+    .box-container {
+        @include grid(25rem);
+
+        .box {
+            text-align: center;
+            background: $color-white;
+            box-shadow: $box-shadow;
+
+            .image {
+                position: relative;
+                overflow: hidden;
+
+                img {
+                    height: 15rem;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+
+                .icons {
+                    position: absolute;
+                    top: 1rem;
+                    left: 1rem;
+
+                    a {
+                        display: block;
+                        height: 4rem;
+                        width: 4rem;
+                        line-height: 4rem;
+                        font-size: 1.5rem;
+                        color: $color-green;
+                        box-shadow: $box-shadow;
+
+                        &:hover {
+                            color: $color-white;
+                        }
+                    }
+                }
+            }
+
+            .content {
+                padding: 2rem;
+
+                h3 {
+                    font-size: 1.5rem;
+                }
+
+                .price {
+                    font-size: 1.7rem;
+                    font-weight: 600;
+                    color: $color-green;
+
+                    span {
+                        color: $p-dark;
+                        font-weight: 400;
+                        text-decoration: line-through;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//Fin Sección TIENDA //

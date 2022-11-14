@@ -297,4 +297,61 @@ section {
   color: #2a3b16;
 }
 
+.shop {
+  background: #efefef;
+}
+.shop .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+.shop .box-container .box {
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0 0.5rem 1rem rgba(29, 17, 17, 0.2);
+}
+.shop .box-container .box .image {
+  position: relative;
+  overflow: hidden;
+}
+.shop .box-container .box .image img {
+  height: 15rem;
+}
+.shop .box-container .box .image img:hover {
+  transform: scale(1.1);
+}
+.shop .box-container .box .image .icons {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+.shop .box-container .box .image .icons a {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
+  font-size: 1.5rem;
+  color: #2a3b16;
+  box-shadow: 0 0.5rem 1rem rgba(29, 17, 17, 0.2);
+}
+.shop .box-container .box .image .icons a:hover {
+  color: #ffffff;
+}
+.shop .box-container .box .content {
+  padding: 2rem;
+}
+.shop .box-container .box .content h3 {
+  font-size: 1.5rem;
+}
+.shop .box-container .box .content .price {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #2a3b16;
+}
+.shop .box-container .box .content .price span {
+  color: #ab000d;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
 /*# sourceMappingURL=style.css.map */
