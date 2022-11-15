@@ -354,4 +354,33 @@ section {
   text-decoration: line-through;
 }
 
+.banner {
+  background: url(../img/banner.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner .content {
+  max-width: 40rem;
+  background: #ffffff;
+  box-shadow: 0 0.5rem 1rem rgba(29, 17, 17, 0.2);
+  padding: 2rem;
+  text-align: center;
+  margin: 10rem;
+}
+.banner .content span {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ab000d;
+}
+.banner .content h3 {
+  font-size: 2.5rem;
+  margin: 1rem;
+  color: #2a3b16;
+}
+.banner .content p {
+  font-size: 1.5rem;
+  margin: 1rem;
+  line-height: 1.5rem;
+}
+
 /*# sourceMappingURL=style.css.map */
