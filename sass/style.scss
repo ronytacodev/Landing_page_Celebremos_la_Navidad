@@ -484,3 +484,66 @@ section {
 }
 
 // Fin Sección BANNNER //
+
+// Inicio de Sección GALLERY //
+.gallery {
+    .box-container {
+        @include grid(30rem);
+
+        .box {
+            height: 25rem;
+            overflow: hidden;
+            position: relative;
+            box-shadow: $box-shadow;
+
+            &:hover .content {
+                display: flex;
+            }
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .content {
+            background-color: rgba($color: $secondary, $alpha: .8);
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            padding: 2rem;
+            text-align: center;
+
+            display: none;
+
+            h3 {
+                font-size: 2rem;
+                color: $color-black;
+
+                animation: fadeIn .2s linear backwards;
+            }
+
+            p {
+                font-size: 1.4rem;
+                color: $color-black;
+                padding: 1rem 0;
+                line-height: 1.5;
+
+                animation: fadeIn .2s linear backwards .4s;
+            }
+
+            .btn {
+                animation: fadeIn .2s linear backwards .6s;
+            }
+        }
+    }
+}
+
+// Fin de Sección GALLERY //
