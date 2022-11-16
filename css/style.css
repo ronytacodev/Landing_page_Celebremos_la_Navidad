@@ -468,4 +468,76 @@ section {
   resize: none;
 }
 
+.blog .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+.blog .box-container .box {
+  box-shadow: 0 0.5rem 1rem rgba(29, 17, 17, 0.2);
+}
+.blog .box-container .box:hover .image img {
+  transform: scale(1.1);
+}
+.blog .box-container .box .image {
+  height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+.blog .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.blog .box-container .box .content {
+  padding: 2rem;
+  position: relative;
+}
+.blog .box-container .box .content .date {
+  position: absolute;
+  top: -6rem;
+  right: 3rem;
+  height: 11rem;
+  width: 11rem;
+  border: 0.5rem solid #ffffff;
+  border-radius: 50%;
+  background: #2a3b16;
+  text-align: center;
+  padding-top: 2.5rem;
+}
+.blog .box-container .box .content .date h3 {
+  font-size: 3rem;
+  line-height: 1;
+  color: #ffffff;
+}
+.blog .box-container .box .content .date span {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.blog .box-container .box .content .user {
+  display: block;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #8d8d8d;
+}
+.blog .box-container .box .content .user i {
+  padding-right: 0.5rem;
+}
+.blog .box-container .box .content .user:hover {
+  color: #2a3b16;
+}
+.blog .box-container .box .content .title {
+  font-size: 2rem;
+  color: #2a3b16;
+  font-weight: 600;
+}
+.blog .box-container .box .content .title:hover {
+  color: #ab000d;
+}
+.blog .box-container .box .content p {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -591,3 +591,93 @@ section {
 }
 
 // Fin de Sección CONTACTO //
+
+// Inicio de Blog //
+.blog {
+    .box-container {
+        @include grid(30rem);
+
+        .box {
+            box-shadow: $box-shadow;
+
+            &:hover .image img {
+                transform: scale(1.1);
+            }
+
+            .image {
+                height: 25rem;
+                width: 100%;
+                overflow: hidden;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .content {
+                padding: 2rem;
+                position: relative;
+
+                .date {
+                    position: absolute;
+                    top: -6rem;
+                    right: 3rem;
+                    height: 11rem;
+                    width: 11rem;
+                    border: .5rem solid $color-white;
+                    border-radius: 50%;
+                    background: $color-green;
+                    text-align: center;
+                    padding-top: 2.5rem;
+
+                    h3 {
+                        font-size: 3rem;
+                        line-height: 1;
+                        color: $color-white;
+                    }
+
+                    span {
+                        font-size: 1.5rem;
+                        color: $color-white;
+                    }
+                }
+
+                .user {
+                    display: block;
+                    padding-bottom: 1rem;
+                    font-size: 1.5rem;
+                    color: $s-dark;
+
+                    i {
+                        padding-right: .5rem;
+                    }
+
+                    &:hover {
+                        color: $color-green;
+                    }
+                }
+
+                .title {
+                    font-size: 2rem;
+                    color: $color-green;
+                    font-weight: 600;
+
+                    &:hover {
+                        color: $p-dark;
+                    }
+                }
+
+                p {
+                    padding: 1rem 0;
+                    font-size: 1.5rem;
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+
+}
+
+// Fin de Blog //
