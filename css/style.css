@@ -633,4 +633,51 @@ section {
   font-weight: 600;
 }
 
+@media (max-width: 1000px) {
+  html {
+    font-size: 55%;
+  }
+  .header {
+    padding: 1rem 1.5rem;
+  }
+  .section {
+    padding: 3rem 2rem;
+  }
+}
+@media (max-width: 840px) {
+  .header #menu-btn {
+    display: inline-block;
+  }
+  .header .navbar {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    padding: 0 2rem;
+    clip-path: polygon(0 0, 100% 1%, 100% 0, 0 0);
+  }
+  .header .navbar.active {
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 100%);
+  }
+  .header .navbar a {
+    display: block;
+    margin: 1.5rem;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  .home .slide .content h3 {
+    font-size: 3rem;
+  }
+  .home .slide .content span {
+    font-size: 2.5rem;
+  }
+  .banner .content {
+    margin: 3rem 0;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
