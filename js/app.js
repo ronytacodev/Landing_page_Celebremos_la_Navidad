@@ -11,6 +11,20 @@ searchBtn.onclick = ()=> {
 }
 // Fin Barra de Búsqueda
 
+// Inicio de Menú 
+let menu = document.querySelector('#menu-btn');
+let navbar = document.querySelector('.header .navbar');
+
+menu.onclick = () => {
+    menu.classList.toggle('fa-xmark');
+    navbar.classList.toggle('active');
+
+    searchBtn.classList.remove('fa-xmark');
+    searchForm.classList.remove('active');
+}
+
+// Fin de Menú
+
 window.onscroll = () => {
     searchBtn.classList.remove('fa-xmark');
     searchForm.classList.remove('active');
