@@ -540,4 +540,28 @@ section {
   line-height: 1.5;
 }
 
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+  background: #efefef;
+}
+.services .box {
+  text-align: center;
+  padding: 2rem;
+}
+.services img {
+  height: 10rem;
+}
+.services h3 {
+  padding-top: 1rem 0;
+  padding-bottom: 0.5rem;
+  font-size: 2rem;
+  color: #2a3b16;
+}
+.services p {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
 /*# sourceMappingURL=style.css.map */

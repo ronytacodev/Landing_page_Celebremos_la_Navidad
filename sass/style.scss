@@ -681,3 +681,32 @@ section {
 }
 
 // Fin de Blog //
+
+// Inicio de Servicios //
+.services {
+    @include grid(30rem);
+    background: $s-ligth;
+
+    .box {
+        text-align: center;
+        padding: 2rem;
+    }
+
+    img {
+        height: 10rem;
+    }
+
+    h3 {
+        padding-top: 1rem 0;
+        padding-bottom: .5rem;
+        font-size: 2rem;
+        color: $color-green;
+    }
+
+    p {
+        line-height: 1.5;
+        font-size: 1.5rem;
+    }
+}
+
+//Fin de Servicios //
