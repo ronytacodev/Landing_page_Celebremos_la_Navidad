@@ -765,3 +765,36 @@ section {
 }
 
 //Fin Footer //
+
+// Inicio de Créditos //
+.creditos {
+    background: $s-ligth;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4rem;
+    font-size: 2rem;
+    color: $color-black;
+    margin: 0;
+
+    a {
+        font-size: 4rem;
+        text-align: center;
+        justify-content: center;
+        color: $p-dark ;
+
+        &:hover {
+            transform: scale(1.5);
+        }
+    }
+
+    p {
+        font-size: 2rem;
+
+        span {
+            color: $p-dark;
+            font-weight: 600;
+        }
+    }
+}
+
+//Fin de Créditos //

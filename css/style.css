@@ -607,4 +607,30 @@ section {
   background: #2a3b16;
 }
 
+.creditos {
+  background: #efefef;
+  line-height: 1.5;
+  text-align: center;
+  padding: 4rem;
+  font-size: 2rem;
+  color: #000000;
+  margin: 0;
+}
+.creditos a {
+  font-size: 4rem;
+  text-align: center;
+  justify-content: center;
+  color: #ab000d;
+}
+.creditos a:hover {
+  transform: scale(1.5);
+}
+.creditos p {
+  font-size: 2rem;
+}
+.creditos p span {
+  color: #ab000d;
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=style.css.map */
