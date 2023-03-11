@@ -15,4 +15,4 @@ Code for landing page related to Christmas.
 
 Responsive
 
-![](img/web2.jpg)
+![](img/web-responsive.jpg)
